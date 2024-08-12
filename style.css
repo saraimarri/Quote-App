@@ -1,0 +1,51 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: rgb(254, 254, 250);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin-top: 1rem;
+  height: 90vh;
+}
+
+header {
+  position: relative;
+  background-color: rgb(212, 214, 219);
+  padding: 8rem 4rem 4rem;
+  margin: 0 auto;
+}
+
+button {
+  font: inherit;
+  position: absolute;
+  right: 50%;
+  top: 45%;
+  border: 0;
+  height: 3rem;
+  width: 8rem;
+  box-shadow: 0.5rem 0.5rem rgb(67, 65, 65);
+  color: rgb(234, 235, 237);
+  background-color:rgb(69, 163, 234);
+  border-radius:0.4rem;
+}
+
+h1 {
+  position: relative;
+  padding-left: 5%;
+  font-size: 3rem;
+  padding-bottom: 5%;
+  color: rgb(8, 8, 8);
+}
+
+section {
+  margin-left: 5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  color: rgb(40, 37, 37);
+}
